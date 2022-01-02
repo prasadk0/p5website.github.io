@@ -34,7 +34,7 @@ function Bubble(){
 function setup() {
     
   createCanvas(windowWidth,windowHeight);
-   for(var i=0;i<700;i++){
+   for(var i=0;i<500;i++){
     bubbles[i]=new Bubble();
   }
 //   bubbles [0] = {
@@ -43,7 +43,7 @@ function setup() {
 //   displa : function(){
 //     stroke(255);
 //     noFill();
-//      ellipse(this.x,this.y,24,24);
+//      ellipse(this.x,this.y,3,3);
 //   },
   
 //    mov : function(){
