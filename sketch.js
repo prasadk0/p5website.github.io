@@ -66,5 +66,5 @@ function draw() {
   
 }
 function windowResized(){
-  resizeCanvas(windowWidth-17,windowHeight-50);
+  resizeCanvas(windowWidth,windowHeight);
 }
